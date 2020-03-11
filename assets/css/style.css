@@ -1,0 +1,318 @@
+/* ================ OVERALL STYLING ================*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000000;
+}
+
+.container.wrap {
+	margin-top: 12%;
+	display: none;
+}
+
+/* ================ NAVBAR ================*/
+.navbar {
+	background: transparent;
+	border-color: transparent;
+	display: none;
+}
+
+/* Centering Navbar Content */
+ul.nav.navbar-nav {
+	width: 100%;
+	text-align: center;
+	background: #000000;
+	padding-bottom: 5px;
+}
+
+.navbar-nav li {
+	display: inline-block;
+    float: none;
+    margin-right: 5%;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #bd9753;
+	font-family: 'Lato', Open Sans, Arial;
+	/*font-size: 130%;*/
+	letter-spacing: 10px;
+	padding-left: 25px;
+}
+
+.navbar-nav li:last-child {
+	margin-right: 0px;
+}
+
+/* Navbar Toggle Menu */
+#toggle-menu {
+	border-color: #bd9753;
+	border-width: 2px;
+	margin-right: 20px;
+}
+
+#toggle-menu:hover {
+	background: #bd9753;
+}
+
+
+#toggle-menu:focus {
+	background: #997a43;
+}
+
+/* Collapsable Navbar */
+.navbar-collapse {
+	border: none;
+	background: black;
+}
+
+.collapse.navbar-collapse.scroll-navbar {
+	display: none!important;
+}
+
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+/* Navbar Header Background Color */
+.navbar-header.spread-menu {
+	background: #000000;
+}
+
+/* Navbar Toggle Button */
+button.navbar-toggle {
+	background: #000000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+/* Navbar Image */
+#je-logo-li {
+	width: 10%;
+}
+
+#je-logo {
+	width: 100%;
+	visibility: hidden;
+}
+
+#active-tab {
+	color: #ffffff;
+	background: transparent;
+	border: solid;
+	border-color: transparent;
+	border-bottom-color: #bd9753;
+}
+
+/* Navbar */
+@media screen and (min-width: 1700px) {
+	.nav.navbar-nav {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 1045px) {
+	.navbar-default .navbar-nav li a {
+		/*letter-spacing: 5px;*/
+		font-size: 85%;
+	}
+
+	#je-logo-li {
+		width: 12%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 5px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	#je-logo-li {
+		width: 13%;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	#je-logo-li {
+		width: 14%;
+	}
+}
+
+@media screen and (max-width: 790px) {
+	#je-logo-li {
+		width: 15%;
+	}
+}
+
+@media screen and (max-width: 791px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		font-size: 85%;
+	}
+}
+
+@media screen and (max-width: 741px){
+	.navbar-nav li {
+		margin-right: 4%;
+	}
+} 
+
+@media screen and (max-width: 704px) {
+	.navbar-nav li {
+	    margin-right: 1%;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 5px;
+	}
+
+	#je-logo-li {
+		width: 17%;
+	}
+
+	#active-tab {
+		padding-bottom: 3px;
+	}
+}
+
+@media screen and (max-width: 676px) {
+	.navbar-nav li {
+	    margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 631px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+	}
+}
+
+@media screen and (max-width: 566px) {
+	.navbar-default .navbar-nav li a {
+		font-size: 65%;
+	}
+
+	#je-logo-li {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.navbar-nav li {
+	    margin-right: 0%;
+	}
+
+	.navbar-nav li:nth-child(2) {
+		margin-right: 10px;
+	}
+
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		padding-right: 0px;
+	}
+
+	#active-tab {
+		padding-left: 8px;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		padding-right: 0px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.navbar-default .navbar-nav li a {
+		letter-spacing: 3px;
+		font-size: 55%;
+	}
+
+	#je-logo-li {
+		width: 15%;
+	}
+}
+
+@media screen and (max-width: 444px) {
+	#je-logo-li {
+		width: 16%;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.navbar-nav {
+		margin: 0;
+	}
+	
+	#je-logo-li {
+		margin-right: 1%;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 15px;
+	}
+
+}
+
+@media screen and (max-width: 391px) {
+	.navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 18px;
+	}
+
+	.navbar-default .navbar-nav li a {
+		font-size: 50%;
+	}
+
+	#je-logo-li {
+		width: 12%;
+	}
+
+	#je-logo-li a {
+		padding: 0;
+	}
+}
+
+
+@media screen and (max-width: 371px) {
+	.navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width: 344px) {
+	.navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-default .navbar-nav li a:first-child {
+		padding-left: 5px;
+	}
+
+	#active-tab {
+		padding: 0px;
+	}
+
+
+}

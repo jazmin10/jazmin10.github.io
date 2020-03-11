@@ -1,0 +1,29 @@
+/* Skills Page */
+
+/* ================ SKILL ICONS ================*/
+.skill {
+	text-align: center;
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 4px;
+	margin-bottom: 4%;
+	color: #ffffff;
+}
+
+.skill:hover {
+	color: #bd9753;
+}
+
+.skill .icons {
+	width: 30%;
+}
+
+.skill h3 {
+	font-size: 1.4em;
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}

@@ -1,0 +1,1423 @@
+/* FEATURED WORK */
+
+/* ================ OVERALL STYLING ================*/
+.content {
+	display: none;
+}
+
+/* Project Overview */
+.full-page {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.project-overview {
+	padding-top: 10%;
+	text-align: center;
+	color: #ffffff;
+}
+
+.scroll-arrow {
+	width: 35px;
+	position: absolute;
+	left: 50%;
+	bottom: 3%;
+}
+
+.content {
+	overflow: hidden;
+}
+
+/* Project's Concept */
+.display-flex {
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-info .information {
+	color: #ffffff;
+	margin: 2% 4%;
+	border: solid;
+	border-color: #bd9753;
+	padding: 2% 7%;
+}
+
+.project-info .concept-title {
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	margin-bottom: 3%;
+	padding: 0 2%;
+	width: 220px;
+}
+
+.project-info h4 {
+	font-family: 'Lato', Open Sans, Arial;
+	font-size: 1.8em;
+	letter-spacing: 10px;
+	padding-left: 10px;
+}
+
+.project-info p {
+	text-indent: 5%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3em;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	letter-spacing: 1px;
+}
+
+/* Project's GitHub Button */
+.project-info .github-btn {
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 2px;
+	font-size: 1.3em;
+	background: transparent;
+	border: solid;
+	border-color: #bd9753;
+	color: #bd9753;
+	margin: 0 auto;
+	margin-top: 3%;
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+}
+
+.project-info .github-btn:hover {
+	background: #bd9753;
+	color: #ffffff;
+}
+
+.project-info .github-btn i {
+	color: #ffffff;
+	margin-right: 2%;
+}
+
+/* Project's Contribution */
+.project-info .contribution-title {
+	margin-top: 5%;
+	padding: 0 2%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	margin-bottom: 3%;
+	width: 350px;
+}
+
+.project-info ul {
+	padding-left: 6%;
+	font-size: 1.3em;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.project-info ul li {
+	margin-bottom: 1%;
+}
+
+/* Project's Image */
+.project-info .image {
+	text-align: center;
+}
+
+.project-info .image-content {
+	margin: 2% 4%;
+	height: 100%;
+}
+
+/* Project's View Project Button */
+.project-info .view-proj-link {
+	display: inline-block;
+	width: min-content;
+	margin: 0 auto;
+}
+
+.project-info .view-proj-link .btn {
+	background: transparent;
+	border: solid;
+	border-color: #bd9753;
+	color: #ffffff;
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 2px;
+	font-size: 1.3em;
+}
+
+.project-info .view-proj-link .btn:hover {
+	background: #bd9753;
+}
+
+.project-info .view-proj-link .btn:focus {
+	background: transparent;
+	color: #bd9753;
+}
+
+/* ================ AUTOTRACK ================*/
+
+/* Overview */
+#autotrack-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 950px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#autotrack-project .project-title h1 {
+	letter-spacing: 50px;
+	padding-left: 50px;
+	font-size: 5em;
+}
+
+#autotrack-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+#autotrack-project .image div {
+	height: 100%;
+	margin: 2% 4%;
+	border: solid;
+	border-color: #00bfff;
+	box-shadow: 0px 0px 15px #00ffff;
+	text-align: center;
+}
+
+#autotrack-logo {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 400px;
+	margin-bottom: 3%;
+}
+
+/* ================ CODEHIVE ================*/
+
+/* Overview */
+#codehive-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 850px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#codehive-project .project-title h1 {
+	letter-spacing: 50px;
+	padding-left: 50px;
+	font-size: 5em;
+}
+
+#codehive-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+#codehive-project .image-content {
+	background: url("../images/hive-background.svg") no-repeat;
+}
+
+#codehive-project .image-content div {
+	background: #000000;
+	width: min-content;
+	margin: 0 auto;
+	margin-top: 250px;
+	margin-bottom: 50px;
+}
+
+#codehive-logo {
+	width: 500px;
+}
+
+#codehive-project .image button {
+	font-weight: 800;
+}
+
+/* ================ SOUNDSCOUT ================*/
+
+/* Overview */
+#soundscout-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 1030px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#soundscout-project .project-title h1 {
+	letter-spacing: 45px;
+	padding-left: 45px;
+	font-size: 5em;
+}
+
+#soundscout-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+#soundscout-project .image-content {
+	background: url("../images/soundscout-background.jpg") no-repeat;
+}
+
+#soundscout-project .image-content div {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.43);
+}
+
+#soundscout-logo {
+	display: block;
+	margin: 0 auto;
+	width: 550px;
+	padding-top: 200px;
+}
+
+/* ================ ARTICLE SCRUBBER ================*/
+
+/* Overview */
+#articlescrubber-project .project-title h1 {
+	letter-spacing: 30px;
+	padding-left: 30px;
+	font-size: 4em;
+}
+
+#articlescrubber-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 1050px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#articlescrubber-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.7em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+	padding: 0px 100px;
+}
+
+/* Image */
+#articlescrubber-project .image-content {
+	background: url("../images/articlescrubber-background.jpg") no-repeat;
+}
+
+#articlescrubber-project .image-content div {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.43);
+}
+
+#articlescrubber-logo {
+	color: #ffffff;
+	font-family: 'IM Fell English SC', serif;
+	font-size: 3em;
+	letter-spacing: 3px;
+	margin: 0px;
+	padding-top: 170px;
+	padding-bottom: 30px;
+}
+
+/* ================ BAMAZON ================*/
+
+/* Overview */
+#bamazon-project .project-title h1 {
+	letter-spacing: 60px;
+	padding-left: 60px;
+	font-size: 5em;
+}
+
+#bamazon-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 850px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#bamazon-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+#bamazon-project .image-content {
+	background: url("../images/bamazon-background2.png");
+	background-size: 100%;
+}
+
+#bamazon-project .image-content div {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.67);
+}
+
+#bamazon-logo {
+	font-size: 5em;
+	margin: 0;
+	color: #20b2aa;
+	font-family: 'Arial', 'Helvetica';
+	font-weight: bolder;
+	padding-top: 200px;
+	letter-spacing: 5px;
+}
+
+/* ================ HANGMAN ================*/
+
+/* Overview */
+#hangman-project .project-title h1 {
+	letter-spacing: 60px;
+	padding-left: 60px;
+	font-size: 5em;
+}
+
+#hangman-project .project-title {
+	padding-top: 10%;
+	border-bottom: solid;
+	border-bottom-color: #bd9753;
+	width: 850px;
+	margin: 0 auto;
+	font-family: 'Lato', Open Sans, Arial;
+	margin-bottom: 5%;
+}
+
+#hangman-project .overview {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .8px;
+	line-height: 1.5;
+}
+
+/* Image */
+#hangman-project .image-content {
+	background: url("../images/hangman-background.png");
+}
+
+#hangman-logo {
+	font-family: 'Permanent Marker', cursive;
+	color: #ffffff;
+	text-shadow: 3px 3px #a94442;
+	font-size: 5em;
+	padding: 120px 0px 10px 0px;
+}
+
+#hangman-project .image button {
+	font-weight: 800;
+}
+
+/* ================ MEDIA QUERIES ================*/
+/* Scroll Arrow */
+@media screen and (max-width: 991px) {
+	.scroll-arrow {
+		left: 49.5%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.scroll-arrow {
+		left: 47%;
+	}
+}
+
+/* Project Overview */
+@media screen and (max-width: 767px) {
+	.overview {
+		padding: 0% 5%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.overview {
+		padding: 0%;
+	}
+}
+
+/* Concept and Contribution Titles */
+@media screen and (min-width: 2300px){
+	.project-info .concept-title {
+		width: 240px;
+	}
+
+	.project-info .contribution-title {
+		width: 370px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.project-info h4 {
+		font-size: 1.3em;
+		letter-spacing: 5px;
+		padding-left: 5px;
+	}
+
+	.project-info .concept-title {
+		width: 140px;
+	}
+
+	.project-info .contribution-title {
+		width: 220px;
+	}
+}
+
+/* Overview Content */
+@media screen and (max-width: 1199px) {
+	#autotrack-project .project-title h1 {
+		font-size: 4em;
+	}
+
+	#autotrack-project .project-title {
+		width: 850px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 4em;
+	}
+
+	#soundscout-project .project-title {
+		width: 900px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 3.7em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 930px;
+	}
+}
+
+@media screen and (max-width: 1015px) {
+	#autotrack-project .project-title h1 {
+		font-size: 3.5em;
+		letter-spacing: 45px;
+		padding-left: 45px;
+	}
+
+	#autotrack-project .project-title {
+		width: 750px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 4.5em;
+		letter-spacing: 45px;
+		padding-left: 45px;
+	}
+
+	#codehive-project .project-title {
+		width: 750px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 3.5em;
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#soundscout-project .project-title {
+		width: 800px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 3em;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 820px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#autotrack-project .project-title h1 {
+		font-size: 3em;
+	}
+
+	#autotrack-project .project-title {
+		width: 700px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 4em;
+	}
+
+	#codehive-project .project-title {
+		width: 700px;
+	}
+
+	#soundscout-project .project-title h1 {
+		letter-spacing: 35px;
+		padding-left: 35px;
+	}
+
+	#soundscout-project .project-title {
+		width: 750px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 2.7em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 720px;
+	}
+
+	#bamazon-project .project-title h1 {
+		letter-spacing: 50px;
+		padding-left: 50px;
+		font-size: 4.5em;
+	}
+
+	#bamazon-project .project-title {
+		width: 730px;
+	}
+
+	#hangman-project .project-title h1 {
+		letter-spacing: 50px;
+		padding-left: 50px;
+		font-size: 4.5em;
+	}
+
+	#hangman-project .project-title {
+		width: 730px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#soundscout-project .project-title h1 {
+		font-size: 3em;
+		letter-spacing: 30px;
+		padding-left: 30px;
+	}
+
+	#soundscout-project .project-title {
+		width: 650px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 15%;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	#autotrack-project .project-title h1 {
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#autotrack-project .project-title {
+		width: 650px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 3.5em;
+	}
+
+	#codehive-project .project-title {
+		width: 650px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 2.3em;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 640px;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 3.7em;
+	}
+
+	#bamazon-project .project-title {
+		width: 650px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 3.7em;
+	}
+
+	#hangman-project .project-title {
+		width: 650px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#autotrack-project .project-title h1 {
+		letter-spacing: 30px;
+		padding-left: 30px;
+	}
+
+	#autotrack-project .project-title {
+		padding-top: 15%;
+		width: 600px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 37px;
+		padding-left: 37px;
+	}
+
+	#codehive-project .project-title {
+		width: 600px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#soundscout-project .project-title {
+		width: 550px;
+	}
+
+	#bamazon-project .project-title h1 {
+		letter-spacing: 43px;
+		padding-left: 43px;
+	}
+
+	#bamazon-project .project-title {
+		width: 600px;
+	}
+
+	#hangman-project .project-title h1 {
+		letter-spacing: 43px;
+		padding-left: 43px;
+	}
+
+	#hangman-project .project-title {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 685px) {
+	#autotrack-project .project-title {
+		width: 550px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 3em;
+	}
+
+	#codehive-project .project-title {
+		width: 550px;
+	}
+
+	#soundscout-project .project-title {
+		width: 530px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 2em;
+		letter-spacing: 17px;
+		padding-left: 17px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 550px;
+	}
+
+	#articlescrubber-project .project-overview {
+		padding-top: 15%;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 3em;
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#bamazon-project .project-title {
+		width: 530px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 3em;
+		letter-spacing: 40px;
+		padding-left: 40px;
+	}
+
+	#hangman-project .project-title {
+		width: 530px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#autotrack-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#autotrack-project .project-title {
+		width: 480px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 33px;
+		padding-left: 33px;
+	}
+
+	#codehive-project .project-title {
+		width: 510px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 2.3em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#soundscout-project .project-title {
+		width: 450px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 1.5em;
+		letter-spacing: 15px;
+		padding-left: 15px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 480px;
+	}
+
+	#articlescrubber-project .overview {
+		font-size: 1.4em;
+		padding: 0px 50px;
+	}
+
+	#articlescrubber-project .project-overview {
+		padding-top: 20%;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 37px;
+		padding-left: 37px;
+	}
+
+	#bamazon-project .project-title {
+		width: 470px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 2.5em;
+		letter-spacing: 37px;
+		padding-left: 37px;
+	}
+
+	#hangman-project .project-title {
+		width: 470px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 20%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#autotrack-project .project-title h1 {
+		font-size: 2em;
+		letter-spacing: 23px;
+		padding-left: 23px;
+	}
+
+	#autotrack-project .project-title {
+		padding-top: 20%;
+		width: 400px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 30px;
+		padding-left: 30px;
+		font-size: 2.5em;
+	}
+
+	#codehive-project .project-title {
+		width: 450px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		/*font-size: 1.3em;*/
+		letter-spacing: 12px;
+		padding-left: 12px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 420px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#codehive-project .project-title h1 {
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#codehive-project .project-title {
+		width: 400px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 2em;
+		letter-spacing: 15px;
+		padding-left: 15px;
+	}
+
+	#soundscout-project .project-title {
+		width: 380px;
+	}
+
+	#articlescrubber-project .project-overview {
+		padding-top: 25%;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 2.3em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#bamazon-project .project-title {
+		width: 360px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 2.3em;
+		letter-spacing: 25px;
+		padding-left: 25px;
+	}
+
+	#hangman-project .project-title {
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	#autotrack-project .project-title h1 {
+		font-size: 1.8em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#autotrack-project .project-title {
+		width: 360px;
+	}
+
+	#codehive-project .project-title h1 {
+		font-size: 2em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#codehive-project .project-title {
+		width: 340px;
+	}
+
+	#soundscout-project .project-title h1 {
+		letter-spacing: 13px;
+		padding-left: 13px;
+	}
+
+	#soundscout-project .project-title {
+		width: 360px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		/*font-size: 1em;*/
+		letter-spacing: 8px;
+		padding-left: 8px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#autotrack-project .project-title h1 {
+		font-size: 1.5em;
+		letter-spacing: 17px;
+		padding-left: 17px;
+	}
+
+	#autotrack-project .project-title {
+		width: 320px;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 1.7em;
+	}
+
+	#bamazon-project .project-title {
+		width: 320px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 1.7em;
+	}
+
+	#hangman-project .project-title {
+		width: 320px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 30%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#autotrack-project .project-title h1 {
+		letter-spacing: 12px;
+		padding-left: 12px;
+	}
+
+	#autotrack-project .project-title {
+		width: 280px;
+	}
+
+	#codehive-project .project-title h1 {
+		letter-spacing: 15px;
+		padding-left: 15px;
+	}
+
+	#codehive-project .project-title {
+		width: 300px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 1.7em;
+	}
+
+	#soundscout-project .project-title {
+		width: 330px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		font-size: 1em;
+		letter-spacing: 10px;
+		padding-left: 10px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 320px;
+	}
+
+	#articlescrubber-project .overview {
+		font-size: 1em;
+		padding: 0px 30px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	#codehive-project .project-title h1 {
+		letter-spacing: 17px;
+		padding-left: 17px;
+		font-size: 1.5em;
+	}
+
+	#codehive-project .project-title {
+		width: 270px;
+	}
+
+	#soundscout-project .project-title h1 {
+		font-size: 1.3em;
+	}
+
+	#soundscout-project .project-title {
+		width: 280px;
+	}
+
+	#articlescrubber-project .project-title h1 {
+		/*font-size: 1em;*/
+		letter-spacing: 8px;
+		padding-left: 8px;
+	}
+
+	#articlescrubber-project .project-title {
+		width: 280px;
+	}
+
+	#bamazon-project .project-title h1 {
+		font-size: 1.3em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#bamazon-project .project-title {
+		width: 260px;
+	}
+
+	#hangman-project .project-title h1 {
+		font-size: 1.3em;
+		letter-spacing: 20px;
+		padding-left: 20px;
+	}
+
+	#hangman-project .project-title {
+		width: 260px;
+	}
+
+	#hangman-project .project-overview {
+		padding-top: 40%;
+	}
+}
+
+/* General Project's Image Styling */
+@media screen and (max-width: 991px) {
+	.project-info .image {
+		width: 100%;
+	}
+
+	#articlescrubber-project .col-md-6 {
+		width: 100%;
+	}
+}
+
+/* Autotrack Image */
+@media screen and (min-width: 1700px) {
+	#autotrack-logo {
+		margin-top: 300px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#autotrack-logo {
+		margin-top: 500px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#autotrack-logo {
+		margin-top: 100px;
+	}
+
+	#autotrack-project .image a {
+		margin-bottom: 100px;
+	}
+}
+
+/* Codehive Image */
+@media screen and (max-width: 1300px) {
+	#codehive-project .image-content div {
+		margin-top: 270px;
+	}
+
+	#codehive-logo {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#codehive-project .image-content div {
+		margin-top: 300px;
+	}
+
+	#codehive-logo {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#codehive-project .image-content div {
+		margin-top: 350px;
+	}
+
+	#codehive-logo {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#codehive-project .image-content div {
+		margin-top: 100px;
+	}
+
+	#codehive-logo {
+		width: 500px;
+	}
+
+	#codehive-project .image a {
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 715px) {
+	#codehive-project .image-content div {
+		margin-top: 75px;
+	}
+
+	#codehive-logo {
+		width: 450px;
+	}
+
+	#codehive-project .image a {
+		margin-bottom: 75px;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	#codehive-logo {
+		width: 370px;
+	}
+
+	#codehive-project .image-content div {
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	#codehive-logo {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#codehive-logo {
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#codehive-logo {
+		width: 225px;
+	}
+}
+
+/* SoundScout Image */
+@media screen and (max-width: 1280px) {
+	#soundscout-logo {
+		width: 500px;
+		padding-top: 250px;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	#soundscout-logo {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 1035px) {
+	#soundscout-logo {
+		width: 400px;
+		padding-top: 300px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#soundscout-project .image-content {
+		background: url("../images/soundscout-background-proj.jpg") no-repeat;
+	}
+
+	#soundscout-logo {
+		width: 600px;
+		padding-top: 100px;
+	}
+
+	#soundscout-project .image a {
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#soundscout-logo {
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#soundscout-logo {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 525px) {
+	#soundscout-logo {
+		width: 380px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	#soundscout-logo {
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#soundscout-logo {
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 325px) {
+	#soundscout-logo {
+		width: 250px;
+	}
+}
+
+/* Article Scrubber Image */
+@media screen and (max-width: 1275px) {
+	#articlescrubber-logo {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (max-width: 1075px) {
+	#articlescrubber-logo {
+		font-size: 2.3em;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#articlescrubber-logo {
+		font-size: 3.5em;
+		padding-top: 70px;
+	}
+
+	#articlescrubber-project .image a {
+		margin-bottom: 70px;
+	}
+
+}
+
+@media screen and (max-width: 725px) {
+	#articlescrubber-logo {
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	#articlescrubber-logo {
+		font-size: 2.7em;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	#articlescrubber-logo {
+		font-size: 2.3em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#articlescrubber-logo {
+		font-size: 1.8em;
+		letter-spacing: 2px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	#articlescrubber-logo {
+		font-size: 1.5em;
+		letter-spacing: 2px;
+	}
+}
+
+/* Bamazon Image */
+@media screen and (max-width: 1240px) {
+	#bamazon-logo {
+		padding-top: 220px;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	#bamazon-logo {
+		font-size: 4.5em;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#bamazon-logo {
+		font-size: 5em;
+		padding: 100px 0px;
+	}
+}
+
+@media screen and (max-width: 545px) {
+	#bamazon-logo {
+		font-size: 4.5em;
+	}
+}
+
+@media screen and (max-width: 465px) {
+	#bamazon-logo {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#bamazon-logo {
+		font-size: 3.5em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#bamazon-logo {
+		font-size: 3em;
+	}
+}
+
+/* Hangman Image */
+@media screen and (max-width: 1400px) {
+	#hangman-logo {
+		padding-top: 140px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	#hangman-logo {
+		padding-top: 160px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#hangman-logo {
+		padding-top: 100px;
+	}
+
+	#hangman-project .image a {
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#hangman-logo {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#hangman-logo {
+		padding-top: 50px;
+		font-size: 3em;
+	}
+
+	#hangman-project .image a {
+		margin-bottom: 50px;
+	}
+}
+

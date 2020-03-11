@@ -1,0 +1,221 @@
+/* PORTFOLIO PAGE */
+
+/* ================ OVERALL STYLING ================*/
+.project {
+	border-radius: 10px;
+	margin-bottom: 3%;
+	text-align: center;
+	height: 200px;
+}
+
+.details {
+	margin-bottom: 3%;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ================ VIEW PROJECTS BUTTON ================*/
+.view-btn {
+	background: transparent;
+	color: #ffffff;
+	border: solid;
+	border-color: #bd9753;
+	font-family: 'Lato', Open Sans, Arial;
+	letter-spacing: 5px;
+	font-weight: bolder;
+	border-width: 3px;
+	padding-left: 17px;
+}
+
+.view-btn:hover {
+	background: #bd9753;
+	color: #ffffff;
+}
+
+/* ================ AUTOTRACK DIV ================*/
+#autotrack-project {
+	border: solid;
+	border-color: #00bfff;
+	box-shadow: 0px 0px 15px #00ffff;
+}
+
+#autotrack-logo {
+	width: 50%;
+}
+
+/* ================ CODEHIVE DIV ================*/
+#codehive-project {
+	border: solid;
+	border-color: #000000;
+	background: url("../images/hive-background.svg") no-repeat;
+	background-size: 100%;
+}
+
+#codehive-project .logo {
+	margin-bottom: 2%;
+}
+
+#codehive-logo {
+	margin-top: 1%;
+	background: #000000;
+	width: 40%;
+}
+
+/* ================ SOUNDSCOUT DIV ================*/
+#soundscout-project {
+	border: solid;
+	border-color: #000000;
+	background: url("../images/soundscout-background-proj.jpg") no-repeat;
+	background-size: 100%;
+	padding: 0;
+}
+
+.gray-background {
+	overflow: hidden;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.43);
+}
+
+#soundscout-logo {
+	width: 50%;
+}
+
+/* ================ ARTCILE SCRUBBER DIV ================*/
+#articlescrubber-project {
+	background: url("../images/articlescrubber-background.jpg") no-repeat;
+	background-size: 100%;
+	padding: 0;
+	background-position: center;
+}
+
+#articlescrubber-logo {
+	color: #ffffff;
+	font-family: 'IM Fell English SC', serif;
+	font-size: 3.5em;
+	letter-spacing: 0.8px;
+}
+
+#articlescrubber-project .logo {
+	margin-bottom: 3%;
+}
+
+/* ================ BAMAZON DIV ================*/
+#bamazon-project {
+	background: url("../images/bamazon-background.png") no-repeat;
+	background-size: 100%;
+	border: solid;
+	padding: 0;
+}
+
+#bamazon-logo {
+	color: #20b2aa;
+	font-family: 'Arial', 'Helvetica';
+	font-weight: bold;
+	margin-bottom: 3%;
+	font-size: 4em;
+}
+
+/* ================ HANGMAN DIV ================*/
+#hangman-project {
+	background: url("../images/hangman-background.png") no-repeat;
+	background-size: 100%;
+}
+
+#hangman-logo {
+	font-family: 'Permanent Marker', cursive;
+	color: #ffffff;
+	text-shadow: 3px 3px #a94442;
+	font-size: 5em;
+	margin-bottom: 3%;
+}
+
+
+/* ================ MEDIA QUERIES ================*/
+
+/* Container Wrap */
+@media screen and (min-width: 768px) and (max-width: 950px) {
+	.container.wrap {
+		margin-top: 15%;
+	}
+}
+
+/* Featured Work Divs */
+@media screen and (max-width: 991px) {
+	.project {
+		height: 180px;
+	}
+
+	#articlescrubber-logo {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.project {
+		height: 140px;
+	}
+
+	#articlescrubber-logo {
+		font-size: 2em;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+	#bamazon-logo {
+		font-size: 3em;
+	}
+
+	#hangman-logo {
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#autotrack-logo {
+		width: 80%;
+	}
+
+	#codehive-logo {
+		width: 60%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	#soundscout-logo {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	#autotrack-logo {
+		margin-bottom: 3%;
+	}
+
+	#codehive-logo {
+		margin-bottom: 3%;
+	}
+}
+
+
+/* Grow Effect on Project Divs */
+@media screen and (max-width: 1270px) {
+	.grow:hover {
+	    -webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	    transform: scale(1.05);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.grow:hover {
+	    -webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	    transform: scale(1.03);
+	}
+}
+
+
